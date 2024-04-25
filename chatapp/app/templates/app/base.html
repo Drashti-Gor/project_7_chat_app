@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="shadow-lg">
+        <div class="contatainer flex flex-wrap justify-between mx-auto">
+            <a class="flex items-center" href="">
+                <img src="" alt="">
+                <div class="m-3 ml-5 container self-center text-xl font-semibold flex">
+                    Chats App
+                </div>
+            </a>
+            <div>
+                <ul class="flex m-3 mr-5">
+                    <li><a href="">Rooms</a></li>
+                    <li class="ml-5"><a href="">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
